@@ -1,0 +1,99 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+ 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+ 
+}
+@media only screen and (max-width : 960px) {
+	.form_left{
+		width: 95%;
+	}
+	.form_top button {
+		margin-top: 5px;
+	}
+	.form_blok button {
+		float: right;
+		margin-right: 35px;
+	}
+	#tovar_blok {
+		float: none;
+	}
+	
+	#copyright .right{
+		float: none;
+	}
+	.center_blok {
+	margin-left: 20px; !important;
+	}
+	.center_blok img {
+    width: 95% !important;
+}
+}
+@media only screen and (max-width : 874px) {
+	header nav li{
+		float:none;
+	}
+	.sub-menu 
+{ 
+   display: none; 
+} 
+    
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+    
+}
+@media only screen and (max-width : 765px) {
+  
+  
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+@media only screen and (min-width : 874px) {
+		.main-item_top {
+		display: none;
+	}
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
